@@ -4,79 +4,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
    <!-- fonts awesome icon link -->
     <script src="https://kit.fontawesome.com/7675e13034.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header id="topHeader" class="horizontal">
             <div id="brand">
-                <img src="image/logo.png" alt="brand logo">
+                <img id="brandLogo" src="image/logo.png" alt="portfolio logo">
             </div>
 
-            <navid="navbar">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skill">Skill</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </navid></nav>
-    </header>
+                <nav id="navbar">
+                    <ul class="menu horizontal">
+                        <li class="navItem"><a href="#home">Home</a></li>
+                        <li class="navItem"><a href="#services">Services</a></li>
+                        <li class="navItem"><a href="#about">About</a></li>
+                        <li class="navItem"><a href="#skills">Skills</a></li>
+                        <li class="navItem"><a href="#portfolio">Portfolio</a></li>
+                        <li class="navItem"><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
 
     
     <main>
         <!-- home section -->
-        <section id="home">
-            <div id="leftCon">
-
-                <div id="socialsIcon">
-                    <div class="icon">
-                        <i class="fa-brands fa-facebook-f"></i></div>
-
-                    <div class="icon">
-                        <i class="fa-brands fa-twitter"></i>
-                    </div>
-                    <div class="icon">
-                        <i class="fa-brands fa-pinterest"></i>
-                    </div>
-
-                    <div class="icon">
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-
-                    <div class="icon">
-                        <i class="fa-brands fa-github"></i>
-                    </div>
+        <section id="home" class="horizontal">
+            <div id="letfcon">
+                <div id="socialIcons" class="horizontal">
+                    <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="icon"><i class="fa-brands fa-x-twitter"></i></div>
+                    <div class="icon"><i class="fa-brands fa-pinterest-p"></i></div>
+                    <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="icon"><i class="fa-brands fa-behance"></i></div>
                 </div>
-
-                <div id="introText"> 
-                    <h1>I am Emmanuel Oluwaseun</h1>
-                    <p>i'm Jonathan, professional web developer with <br>long time experience in this field​</p>
+                <div id="text">
+                    <h1 class="sectionTitle">I am Jonathan Doe</h1>
+                    <p class="sectionP">I'm Jonathan, professional web developer with long time experience in this field​</p>
                 </div>
-                <div id="links"></div>
+                <div id="actionBtn">
+                    <button class="icon portfolioBtn">My Portfolio</button>
+                    <button id="playBtn"><i class="fa-solid fa-play"></i></button>
+                </div>
             </div>
 
 
-            <div id="right">
+            <div id="rightcon">
                 <div id="image"><img src="image/man-01.png" alt=""></div>
             </div>
         </section>
 
         <!-- services section -->
-        <section id="services"></section>
+        <section id="services">
+            <div id="servicetext">
+                
+            <h4 id ="smallservice">SERVICES</h4>
+            <h1 id="bigservice">My Services</h1>
+           
+            <p class="paraservice">Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+                 industry. Lorem Ipsum standard dummy text</p>
+             </div >
+
+             <div id="gridcont">
+                <div id="sixblocks" class="horizontal"></div>
+
+                <div class="cont"> <h2 class="Web Development"> </h2>
+                    <p> Lorem Ipsum is simply dummy <br> 
+                        text of the printing typesetting <br> 
+                        industry. simply dummy</p></div>
+
+                        <div class="cont"> <h2 class="Web Development"> </h2>
+                            <p> Lorem Ipsum is simply dummy <br> 
+                                text of the printing typesetting <br> 
+                                industry. simply dummy</p></div>
+
+                                <div class="cont"> <h2 class="Web Development"> </h2>
+                                    <p> Lorem Ipsum is simply dummy <br> 
+                                        text of the printing typesetting <br> 
+                                        industry. simply dummy</p></div>
+
+                                        <div class="cont"> <h2 class="Web Development"> </h2>
+                                            <p> Lorem Ipsum is simply dummy <br> 
+                                                text of the printing typesetting <br> 
+                                                industry. simply dummy</p></div>
+
+                                                <div class="cont"> <h2 class="Web Development"> </h2>
+                                                    <p> Lorem Ipsum is simply dummy <br> 
+                                                        text of the printing typesetting <br> 
+                                                        industry. simply dummy</p></div>
+
+                                                        </div>
+                                                        </section>
+
+
+    
+              <!-- <div class ="leftupcont">
+                
+                <h2>Web Development </h2>
+                    <p> Lorem Ipsum is simply dummy <br> 
+                        text of the printing typesetting <br> 
+                        industry. simply dummy</p>
+                
+             </div>
+
+             <div class ="leftdowncont">
+                
+                <h2>Photography</h2>
+                    <p> Lorem Ipsum is simply dummy <br> 
+                        text of the printing typesetting <br> 
+                        industry. simply dummy</p>
+                
+             </div>
+
+             
+             <div class ="middleupcont">
+                
+                <h2>Web Design </h2>
+                    <p> Lorem Ipsum is simply dummy <br> 
+                        text of the printing typesetting <br> 
+                        industry. simply dummy</p>
+             </div>
+
+             <div class ="middledowncont">
+                
+                <h2>App Developing </h2>
+                    <p> Lorem Ipsum is simply dummy <br> 
+                        text of the printing typesetting <br> 
+                        industry. simply dummy</p>
+             </div>
+
+             <!-- rightupcont -->
+             <div class="rightupcont">
+                
+                <h2> Video Editing</h2>
+                    <p> Lorem Ipsum is simply dummy <br> 
+                        text of the printing typesetting <br> 
+                        industry. simply dummy</p>
+             </div>
+
+             <!-- rightdowncont -->
+             <div class="rightdowncont">
+                
+                <h2> SEO Expart</h2>
+                    <p> Lorem Ipsum is simply dummy <br> 
+                        text of the printing typesetting <br> 
+                        industry. simply dummy</p>
+             </div>
+
+
+                </div>
+        </section>
+ -->
+
 
         <!-- about section -->
         <section id="about"></section>
-        <h4>SERVICES</h4>
-        <h2>My Services</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>
-             industry. Lorem Ipsum standard dummy text</p>
         
-
-
+        
         <!-- skill section -->
         <section id="skill"></section>
 
