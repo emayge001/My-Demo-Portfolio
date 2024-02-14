@@ -1,3 +1,9 @@
+$bgColour1: #1f2235;
+$bgColour2: #24263b;
+$pinkColor: #ff4a57;
+$paracolor: white
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +13,7 @@
 }
 
 #topHeader {
-    background-color: #1f2235;
+    background-color: $bgColour1;
     padding: 20px 80px;
 }
 .horizontal {
@@ -31,7 +37,7 @@
 }
 
 .navItem a:hover {
-    color: #ff4a57;
+    color: $pinkColor;
 }
 
 /* home section style */
@@ -47,7 +53,7 @@
 .icon {
     margin-right: 18px;
     text-align: center;
-    border: 2px solid #ff4a57;
+    border: 2px solid $pinkColor;
     border-radius: 50%;
     padding: 10px;
     font-size: 16px;
@@ -56,7 +62,7 @@
 }
 
 .icon:hover {
-    background-color: #ff4a57;
+    background-color: $pinkColor;
     cursor: pointer;
 }
 
@@ -74,16 +80,16 @@
 }
 
 .portfolioBtn {
-    background-color: #24263b;
+    background-color: $bgColour2;
     border-radius: 24px;
     width: 180px;
     height: 58px;
     font-weight: 800;
 
-}`1
+}
 
 #playBtn {
-    background-color: #ff4a57;
+    background-color: $pinkColor;
     padding: 14px 48px;
     font-size: 18px;
     border-radius: 24px;
@@ -93,7 +99,7 @@
 }
 
 #services {
-    background-color: #1f2235;
+    background-color: $bgColour1;
     padding: 80px;
 
 }
@@ -101,14 +107,14 @@
 .card {
     height: 300px;
     width: 300px;
-    background-color: #24263b;
+    background-color: $bgColour2;
     border-radius: 14px;
-    border: 2px solid #ff4a57;
+    border: 2px solid $pinkColor;
     margin-bottom: 28px;
 }
 
 #smallservice {
-    color: #ff4a57;
+    color: $pinkColor;
     font-size: small;
     text-align: center;
     text-justify: 5%;
@@ -116,7 +122,7 @@
 }
 
 #bigservice {
-    color: white;
+    color: $paracolor;
     font-size: 400%;
     text-align: center;
     font-weight: bold;
@@ -124,21 +130,22 @@
 }
 
 .paraservice {
-    color: white;
+    color: $paracolor;
     text-align: center;
     font-size: medium;
     margin-top: 2%;
 }
 
 .class {
-  background-color: #ff4a57;
-  color: white;
+  background-color: $pinkColor;
+  color: $paracolor;
   border: 200 200;
   justify-content: flex-start;
   border-radius: 10;
 }
  
-.horizontal {
+#gridcont{
+    display: flex;
+}
   
 
-}
