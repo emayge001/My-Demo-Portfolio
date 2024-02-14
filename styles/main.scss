@@ -141,11 +141,15 @@ $paracolor: white
   color: $paracolor;
   border: 200 200;
   justify-content: flex-start;
-  border-radius: 10;
+  border-radius: 10px;
+
+  
+  
 }
  
 #gridcont{
     display: flex;
+    
 }
   
 
