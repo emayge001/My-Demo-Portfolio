@@ -144,12 +144,17 @@
 }
 
 .cont{
-    background-color: #ff4a57;
+    background-color: #24263b;
     margin: 40px;
     padding: 20px;
     height: 300px;
     width: 300px;
-    ali
+    border-radius: 25px;
 
+}
 
+.cont:hover {
+    background-color: #ff4a57;
+    cursor: pointer;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
