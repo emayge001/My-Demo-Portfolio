@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #fff;
+    color: white;
 }
 
 #topHeader {
@@ -58,6 +58,7 @@
 .icon:hover {
     background-color: #ff4a57;
     cursor: pointer;
+   
 }
 
 .sectionTitle {
@@ -150,11 +151,38 @@
     height: 300px;
     width: 300px;
     border-radius: 25px;
+    cursor: pointer;
 
 }
 
 .cont:hover {
     background-color: #ff4a57;
     cursor: pointer;
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    -moz-transition-delay: 3ms;
 }
+
+.icon2{
+    color: #ff4a57 !important; 
+    font-size: 40px;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+.icon2:hover {
+     color: white;
+    
+}
+
+.ch2 {
+    margin-bottom: 20px;
+}
+
+.cpara {
+     justify-content: space-evenly;
+     text-wrap: wrap;
+     
+    
+}
+.icon2.cont:hover{
+    color: white;
+} 
