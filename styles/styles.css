@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
 }
 
 #topHeader {
     background-color: #1f2235;
-    padding: 20px 80px;
+    padding: 20px 80px;  
+    position: sticky;
 }
 .horizontal {
     display: flex;
@@ -24,10 +24,12 @@
     list-style: none;
     margin-right: 24px;
     font-size: 18px;
+
 }
 
 .navItem a {
     text-decoration: none;
+    color: white;
 }
 
 .navItem a:hover {
@@ -38,10 +40,12 @@
 #home {
     background-color: #24263b;
     padding: 80px;
+    color: white;
 }
 
 #socialIcons {
     justify-content: flex-start;
+    color: white;
 }
 
 .icon {
@@ -53,6 +57,7 @@
     font-size: 16px;
     height: 40px;
     width: 40px;
+    color: white;
 }
 
 .icon:hover {
@@ -84,6 +89,7 @@
 }
 
 #playBtn {
+    color: white;
     background-color: #ff4a57;
     padding: 14px 48px;
     font-size: 18px;
@@ -106,6 +112,7 @@
     border-radius: 14px;
     border: 2px solid #ff4a57;
     margin-bottom: 28px;
+    color: white;
 }
 
 #smallservice {
@@ -129,6 +136,8 @@
     text-align: center;
     font-size: medium;
     margin-top: 2%;
+    padding-left: 270px;
+    padding-right: 270px;
 }
 
 .class {
@@ -138,7 +147,16 @@
   justify-content: flex-start;
   border-radius: 10;
 }
- 
+
+ .icon3 { 
+    width: 2px;
+    align-content: center;
+    color: #ff4a57 !important; 
+    font-size: 80px;
+    padding-left: 550px;
+    padding-right: 550px;
+ }
+
 .sixblocks {
    display: flex;
    flex-wrap: wrap;
@@ -152,13 +170,6 @@
     width: 300px;
     border-radius: 25px;
     cursor: pointer;
-
-}
-
-.cont:hover {
-    background-color: #ff4a57;
-    cursor: pointer;
-    -moz-transition-delay: 3ms;
 }
 
 .icon2{
@@ -168,21 +179,25 @@
     width: 80px;
     cursor: pointer;
 }
-.icon2:hover {
-     color: white;
+
+.cont:hover {
+    background-color: #ff4a57 ;
+    cursor: pointer;
+    color: white;
+}
     
+.icon2.cont:hover {
+     color: white !important;
 }
 
 .ch2 {
     margin-bottom: 20px;
+    text-justify: distribute-all-lines;
+    color: white;
 }
 
 .cpara {
      justify-content: space-evenly;
      text-wrap: wrap;
-     
-    
-}
-.icon2.cont:hover{
-    color: white;
-} 
+     color: white;
+     }
