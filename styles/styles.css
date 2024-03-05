@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #topHeader {
@@ -33,7 +33,7 @@
 }
 
 .navItem a:hover {
-    color: #ff4a57;
+    color: #ff4a57; 
 }
 
 /* home section style */
@@ -164,7 +164,7 @@
 
 .cont{
     background-color: #24263b;
-    margin: 40px;
+    margin: 20px;
     padding: 20px;
     height: 300px;
     width: 300px;
@@ -184,10 +184,11 @@
     background-color: #ff4a57 ;
     cursor: pointer;
     color: white;
-}
     
-.icon2.cont:hover {
-     color: white !important;
+    .icon2{
+        color: white !important;
+}
+   
 }
 
 .ch2 {
